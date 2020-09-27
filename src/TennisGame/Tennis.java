@@ -7,6 +7,9 @@ import java.awt.Image;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
+// Basic tennis game create with help from Youtube tutorial
+// Tutorial can be found here: https://www.youtube.com/watch?v=xIqeK2hzx1I
+// Credit to Krohn - Education
 public class Tennis extends Applet implements Runnable, KeyListener{
 	final int WIDTH = 700, HEIGHT= 500;
 	Thread thread;
